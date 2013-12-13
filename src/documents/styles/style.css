@@ -4,18 +4,27 @@ body {
 }
 
 .test-box-left {
-    margin: auto;
-    text-align: center;
     padding: 0 0 0 4em;
 }
     .test-box-right{
-        margin: auto;
-        text-align: center;
         padding: 0 4em 0 0;
     }
 
 .l-box {
     padding: 1em;
+}
+
+h3{
+    color:#555;
+}
+h4{
+    font-size: 170%;
+    margin: 0em 0;
+    line-height: 1.2em;   
+}
+h6{
+    font-size: 1.12em;
+    color: #898989;
 }
 
 .header {
@@ -40,10 +49,15 @@ body .primary-button {
 .center {
     text-align: center;
 }
+
+/* SPLASH Section */
+
 .splash {
+    height: 444px;
+    background: #eee;
     margin: 2em auto 0;
     padding: 3em 0.5em;
-    background: #eee;
+    border-bottom: 5px solid #FB801F;
 }
     .splash .splash-text {
         text-align: center;
@@ -64,9 +78,8 @@ body .primary-button {
 
 
 .content .content-subhead {
-    color: #999;
+    color: #555;
     padding-bottom: 0.3em;
-    text-transform: uppercase;
     margin: 0;
     border-bottom: 2px solid #eee;
     display: inline-block;
@@ -78,8 +91,58 @@ body .primary-button {
     .testimonials{
         margin: 3em 3em 0 3em;
     }
+    .test-btn-row{
+        margin: 0 0 77px 0;
+    }
     .test-btns{
         margin: 0 0 3em 0;
+    }
+    .pure-button{
+        text-transform: uppercase;
+        color: #fff;
+        background: #FD9500;
+    }
+    .services-button {
+        margin: 243px 0 0 0;
+        border: 5px solid;
+        padding: 1.2em 2.3em;
+    }
+.orange {
+    color: #FD9500;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.summary {
+    background: #EBEBEB;
+}
+    .summary-headers{
+        margin: 65px 0 33px 0;
+    }
+    .summary-box-small{
+        background: #E68407;
+        height: 333px;
+        width: 275px;
+        margin-top: 50px;
+    }
+    .summary-box-big{
+        width: 100%;
+        height: 444px;
+        background: red;
+        padding: 13px 0 0 0;
+    }
+    .summary-box-text{
+        width: 222px;
+        margin: auto;
+    }
+     .summary-middle-text{
+        width: 333px;
+        margin: auto;
     }
 
 .ribbon {
@@ -94,9 +157,23 @@ body .primary-button {
     }
 
 .footer {
-    background: #111;
-    color: #666;
+    background: #fd9500;
+    color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 7em 1em;
     font-size: 80%;
 }
+    .footer h1{
+        font-size: 255%;
+    }
+        .footer h2{
+            font-weight: 200;
+        }
+    .footer .pure-menu{
+        background: #fd9500;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+        .footer .pure-menu span{
+            padding:13px 33px;
+        }

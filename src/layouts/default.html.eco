@@ -23,10 +23,6 @@
 
 	<!-- Icons -->
     <link rel="shortcut icon" href="icons/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57-precomposed.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -43,7 +39,7 @@
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-			<a class="pure-menu-heading" href="/">Your Site</a>
+			<a class="pure-menu-heading" href="/">WritersBlock</a>
 
 			<ul>
 				<li class="pure-menu-selected"><a href="/">Home</a></li>
@@ -59,10 +55,27 @@
 
 	<%- @content %>
 
-	<div class="footer pure-u-1">
-		View the source of this layout to learn more. Made with love by the YUI Team. 
-		&copy; Company <%- (new Date()).getFullYear() %>.
-		This website was last updated at <%= @site.date.toISOString() %>
+	<div class="pure-g-r">
+		<div class="footer pure-u-1">
+            <div class="pure-u-1">
+                <div class="">
+                    <h1>Ready for some Content?</h1>
+                    <h4>Contact us +1 290 8375 3945</h4>
+                    <div class="pure-menu pure-menu-open pure-menu-horizontal">
+                        <span> about us </span>
+                        <span> our services </span>
+                        <span> pricing </span>
+                        <span> faq </span>
+                        <span> testimonials </span>
+                        <span> blog </span>
+                    </div>
+                    <span class="copyright">
+						&copy;<%- (new Date()).getFullYear() %> WritersBlock.
+						This website was last updated at <%= @site.date.toISOString() %>
+					</span>
+                </div>
+            </div>
+        </div>
 	</div>
 </div>
 
