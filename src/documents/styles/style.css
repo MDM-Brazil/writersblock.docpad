@@ -3,9 +3,16 @@ body {
     line-height: 1.7em;
 }
 
-.test {
-    margin: 0 0 0 1em;
+.test-box-left {
+    margin: auto;
+    text-align: center;
+    padding: 0 0 0 4em;
 }
+    .test-box-right{
+        margin: auto;
+        text-align: center;
+        padding: 0 4em 0 0;
+    }
 
 .l-box {
     padding: 1em;
@@ -68,6 +75,12 @@ body .primary-button {
 .content .content-ribbon {
     margin: 3em;
 }
+    .testimonials{
+        margin: 3em 3em 0 3em;
+    }
+    .test-btns{
+        margin: 0 0 3em 0;
+    }
 
 .ribbon {
     background: #eee;
