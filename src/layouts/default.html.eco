@@ -57,24 +57,20 @@
 
 	<div class="pure-g-r">
 		<div class="footer pure-u-1">
-            <div class="pure-u-1">
-                <div class="">
-                    <h1>Ready for some Content?</h1>
-                    <h4>Contact us +1 290 8375 3945</h4>
-                    <div class="pure-menu pure-menu-open pure-menu-horizontal">
-                        <span> about us </span>
-                        <span> our services </span>
-                        <span> pricing </span>
-                        <span> faq </span>
-                        <span> testimonials </span>
-                        <span> blog </span>
-                    </div>
-                    <span class="copyright">
-						&copy;<%- (new Date()).getFullYear() %> WritersBlock.
-						This website was last updated at <%= @site.date.toISOString() %>
-					</span>
-                </div>
+            <h1 class="ready">Ready for some Content?</h1>
+            <h4>Contact us +1 290 8375 3945</h4>
+            <div class="pure-menu pure-menu-open pure-menu-horizontal">
+                <span> about us </span>
+                <span> our services </span>
+                <span> pricing </span>
+                <span> faq </span>
+                <span> testimonials </span>
+                <span> blog </span>
             </div>
+            <span class="copyright">
+				&copy;<%- (new Date()).getFullYear() %> WritersBlock.
+				This website was last updated at <%= @site.date.toISOString() %>
+			</span>
         </div>
 	</div>
 </div>

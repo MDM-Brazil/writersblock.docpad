@@ -121,6 +121,9 @@ body .primary-button {
 .summary {
     background: #EBEBEB;
 }
+    .summary-section{
+        margin: auto auto 111px auto;
+    }
     .summary-headers{
         margin: 65px 0 33px 0;
     }
@@ -160,7 +163,7 @@ body .primary-button {
     background: #fd9500;
     color: #fff;
     text-align: center;
-    padding: 7em 1em;
+    padding: 4em 1em 7em 1em;
     font-size: 80%;
 }
     .footer h1{
@@ -170,10 +173,14 @@ body .primary-button {
             font-weight: 200;
         }
     .footer .pure-menu{
-        background: #fd9500;
+        margin: 38px 0;
         font-weight: bold;
+        background: #fd9500;
         text-transform: uppercase;
     }
         .footer .pure-menu span{
             padding:13px 33px;
         }
+    .footer .ready{
+        margin: .67em 0 .4em 0;
+    }
