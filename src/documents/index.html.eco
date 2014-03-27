@@ -20,6 +20,7 @@ title: 'Home'
             <div class="pure-u-1 center">
                 <span>
                     <a href="#" class="pure-button services-button">View Our Services</a>
+					<span class="order-link"><a href="#"> or contact us to order content now </a></span> 
                 </span>
             </div>
         </div>
@@ -39,7 +40,7 @@ title: 'Home'
         <div class="pure-g-r testimonials">
             <div class="pure-u-1-3">
                 <div class="l-box">
-					<img class="testimonial-face" src="img/testimonial-face.png" alt="testimonial face"/>
+					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>
                     <h3>Testimonial</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -51,7 +52,7 @@ title: 'Home'
             </div>
             <div class="pure-u-1-3">
                 <div class="l-box">
-					<img class="testimonial-face" src="img/testimonial-face.png" alt="testimonial face"/>					
+					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>					
                     <h3>Testimonial</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -63,7 +64,7 @@ title: 'Home'
             </div>
             <div class="pure-u-1-3">
                 <div class="l-box">
-					<img class="testimonial-face" src="img/testimonial-face.png" alt="testimonial face"/>					
+					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>					
                     <h3>Testimonial</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -101,7 +102,7 @@ title: 'Home'
             </div>
             <div class="pure-u-1 summary-section"> <!-- summary boxes start -->
                 <div class="pure-u-1-3 left">
-                    <div class="summary-box-small right"> 
+                    <div class="summary-box-small right summary-box content-marketing-summary"> 
                         <h3> Content Marketing </h3>
                         <p class="summary-box-text">
                             The most effective method for educating your customers and getting found on Google.
@@ -109,17 +110,42 @@ title: 'Home'
                     </div>
                 </div>
                 <div class="pure-u-1-3 left">
-                    <div class="summary-box-big">
+                    <div class="summary-box-big summary-box">
                         <h3> Our Services </h3>
                         <p class="summary-middle-text">
                             A complete set of content marketing products all in one place. Sourcing yoru content has never been easier.
                         </p>
-						<%- @partial('cube-svg') %>
-                        <a href="#" class="pure-button">View all our services</a>
+						<span class="cube-row">
+							<div class="pure-u-1-3 cube-third">
+								<%- @partial('cube-svg') %>
+								<span class="cube-copy"> Blogging </span>
+							</div>
+							<div class="pure-u-1-3 cube-third" >
+								<%- @partial('cube-svg') %>
+								<span class="cube-copy"> Newsletters </span>
+							</div>
+							<div class="pure-u-1-3 cube-third">
+								<%- @partial('cube-svg') %>
+								<span class="cube-copy"> Landing <br/> Pages </span>
+							</div>
+							<div class="pure-u-1-3 cube-third">
+								<%- @getIconmonstrTipsyBlock('newspaper8','news8Icon cube-svg','news8-icon','') %>
+								<span class="cube-copy"> Sites </span>
+							</div>
+							<div class="pure-u-1-3 cube-third">
+								<%- @partial('cube-svg') %>
+								<span class="cube-copy"> SEO </span>
+							</div>
+							<div class="pure-u-1-3 cube-third">
+								<%- @partial('cube-svg') %>
+								<span class="cube-copy"> Press <br/> Release </span>
+							</div>
+						</span>
+                        <a href="#" class="pure-button services-btn">View all our services</a>
                     </div>
                 </div>
                 <div class="pure-u-1-3">
-                    <div class="summary-box-small left">
+                    <div class="summary-box-small summary-box left">
                         <h3> Amazing Writers </h3>
                         <p class="summary-box-text">
                             Our writers are full-time in the art of crafting high quality content. Our career editors screen and control quality for each piece of content published to our customers.

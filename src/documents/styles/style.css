@@ -26,6 +26,9 @@ body {
 		position: absolute;
 		top:0;
 	}
+	.phone-cube-tab{
+		margin: 14px 18px -8px 0;
+	}
 
 h3{
     color:#555;
@@ -45,20 +48,24 @@ h6{
 }
 
     .header .pure-menu {
-        padding: 0.5em;
-        border:0;
+        padding: 6px;
+        border-bottom:0 !important;
         background: #252525;
     }
-
+		.pure-menu a{
+			color: #fafafa;
+		}
         .header .pure-menu ul{
             float: right;
+			margin: -20px 0 0 0;
+			font-size: 15px;
         }
-
         .header .pure-menu li a:hover,
         .header .pure-menu li a:focus {
             background: none;
             border: none;
-            color: #aaa;
+            color: orange;
+			font-weight: bold;
         }
 
 body .primary-button {
@@ -73,7 +80,7 @@ body .primary-button {
 
 .splash {
     height: 444px;
-    background: #eee url('/img/feature-bg.png') center no-repeat;
+    background: #eee url('https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/feature-bg.png') center no-repeat;
     margin: 2em auto 0;
     padding: 7em 0.5em 9em;
 	color: #fff;
@@ -130,6 +137,19 @@ body .primary-button {
         padding: 1.2em 2.3em;
 		border-radius: 9px;
     }
+	.services-btn{
+		padding:17px 31px;
+		margin: 0 0 -21px;
+	}
+	.order-link{
+		display: block;
+		margin: -2px auto 0;
+	}
+	.order-link a{
+		color: orange;
+		text-decoration: none;
+		font-size: 14px;
+	}
 .orange {
     color: #FD9500;
 }
@@ -141,6 +161,23 @@ body .primary-button {
     float: right;
 }
 
+
+.cube-svg{
+	width: 84px;
+	height: 79px;
+}
+	.cube-copy{
+		display: block;
+	}
+	.cube-third{
+		width: 31%;
+		padding: 12px 3px;
+		text-align: center;
+	}
+	.cube-row{
+		margin: 9px 0 15px;
+		display: block;
+	}
 .summary {
     background: #EBEBEB;
 }
@@ -153,18 +190,20 @@ body .primary-button {
     .summary-box-small{
         background: #fff;
 		box-shadow: -2px -2px 2px 2px rgba(160, 159, 159, 0.01);
-		height: 333px;
-        width: 275px;
+		height: 444px;
+        width: 333px;
         margin-top: 50px;
     }
     .summary-box-big{
         width: 100%;
-        height: 444px;
         background: #fff;
 		box-shadow: -2px -2px 2px 2px rgba(160, 159, 159, 0.01);
         padding: 13px 0 0 0;
 		position: relative;
     }
+	.summary-box{
+		color: #898989;
+	}
     .summary-box-text{
         width: 222px;
         margin: auto;
@@ -173,6 +212,9 @@ body .primary-button {
         width: 333px;
         margin: auto;
     }
+	.content-marketing-summary{
+		background: #FFf url(https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/content-marketing-bg.png) no-repeat 66px 161px;
+	}
 
 .ribbon {
     background: #eee;

@@ -42,7 +42,7 @@
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal logo-tab">
-			<img class="logo-icon-tab" src="/img/writersblock-12-4.png" alt="writers block icon logo"/>
+			<img class="logo-icon-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/logo-icon_header-tab.png" alt="writers block icon logo"/>
 			<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
 
 			<ul>
@@ -51,6 +51,7 @@
 						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
 					</li>
 				<% end %>
+				<li><img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
 			</ul>
 		</div>
 	</div>
