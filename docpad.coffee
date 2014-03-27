@@ -42,6 +42,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"http://yui.yahooapis.com/pure/0.3.0/pure-min.css"
+				"http://fonts.googleapis.com/css?family=Roboto:400,300,700,900"
 				"/styles/style.css"
 			]
 

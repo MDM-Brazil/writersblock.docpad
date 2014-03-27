@@ -32,18 +32,20 @@
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 	
+	<!-- SumoMe -->
+	<script src="//load.sumome.com/" data-sumo-site-id="1f067c3b8e3283c9c7986385f03debe429c338a72adfb1902324f40558984a36" async></script>
+	
 </head>
 <body>
 
 <!-- Markup -->
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
-		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-			<a class="pure-menu-heading" href="/">WritersBlock</a>
+		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal logo-tab">
+			<img class="logo-icon-tab" src="/img/writersblock-12-4.png" alt="writers block icon logo"/>
+			<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
 
 			<ul>
-				<li class="pure-menu-selected"><a href="/">Home</a></li>
-				<li><a href="#">Tour</a></li>
 				<% for document in @getCollection('pages').toJSON(): %>
 					<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
 						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>

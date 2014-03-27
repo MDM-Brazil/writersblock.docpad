@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     line-height: 1.7em;
+	font-family: 'Roboto', sans-serif;
 }
 
 .test-box-left {
@@ -13,6 +14,18 @@ body {
 .l-box {
     padding: 1em;
 }
+.logo{
+    color: #fd9500 !important;
+	font-size: 21px !important;
+	margin: 0 50px 0 !important;
+}
+    .logo strong{
+        color: #fff;
+    }
+	.logo-icon-tab{
+		position: absolute;
+		top:0;
+	}
 
 h3{
     color:#555;
@@ -33,7 +46,13 @@ h6{
 
     .header .pure-menu {
         padding: 0.5em;
+        border:0;
+        background: #252525;
     }
+
+        .header .pure-menu ul{
+            float: right;
+        }
 
         .header .pure-menu li a:hover,
         .header .pure-menu li a:focus {
@@ -54,9 +73,10 @@ body .primary-button {
 
 .splash {
     height: 444px;
-    background: #eee;
+    background: #eee url('/img/feature-bg.png') center no-repeat;
     margin: 2em auto 0;
-    padding: 3em 0.5em;
+    padding: 7em 0.5em 9em;
+	color: #fff;
     border-bottom: 5px solid #FB801F;
 }
     .splash .splash-text {
@@ -68,7 +88,6 @@ body .primary-button {
         line-height: 1.2em;
     }
     .splash .splash-subhead {
-        color: #999;
         font-weight: 300;
         line-height: 1.4em;
     }
@@ -88,6 +107,9 @@ body .primary-button {
 .content .content-ribbon {
     margin: 3em;
 }
+	.page-rank{
+		margin: 7em 0 -2em !important;
+	}
     .testimonials{
         margin: 3em 3em 0 3em;
     }
@@ -103,9 +125,10 @@ body .primary-button {
         background: #FD9500;
     }
     .services-button {
-        margin: 243px 0 0 0;
+        margin: 337px 0 0 0;
         border: 5px solid;
         padding: 1.2em 2.3em;
+		border-radius: 9px;
     }
 .orange {
     color: #FD9500;
@@ -128,16 +151,19 @@ body .primary-button {
         margin: 65px 0 33px 0;
     }
     .summary-box-small{
-        background: #E68407;
-        height: 333px;
+        background: #fff;
+		box-shadow: -2px -2px 2px 2px rgba(160, 159, 159, 0.01);
+		height: 333px;
         width: 275px;
         margin-top: 50px;
     }
     .summary-box-big{
         width: 100%;
         height: 444px;
-        background: red;
+        background: #fff;
+		box-shadow: -2px -2px 2px 2px rgba(160, 159, 159, 0.01);
         padding: 13px 0 0 0;
+		position: relative;
     }
     .summary-box-text{
         width: 222px;
@@ -182,5 +208,6 @@ body .primary-button {
             padding:13px 33px;
         }
     .footer .ready{
+		color: #000;
         margin: .67em 0 .4em 0;
     }
