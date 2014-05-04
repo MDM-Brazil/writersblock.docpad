@@ -209,10 +209,9 @@ body .primary-button {
 		width: 100%;
 		cursor: default;
 	}
-	/*.home-contact-modal */
 	.modal-content{
 		background: #fff;
-		border-radius: 0; 
+		border-radius: 0;
 	}
 	.modal-footer{
 		border: 0;
