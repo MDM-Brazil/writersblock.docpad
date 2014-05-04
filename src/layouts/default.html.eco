@@ -51,7 +51,9 @@
 						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
 					</li>
 				<% end %>
-				<li><img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
+				<li>
+					<img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
+				</li>
 			</ul>
 		</div>
 	</div>

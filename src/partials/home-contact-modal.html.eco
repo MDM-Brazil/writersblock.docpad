@@ -7,7 +7,7 @@
         <h4 class="modal-title" id="myModalLabel">Let's Talk!</h4>
       </div>
       <div class="modal-body">
-        <iframe class="home-contact-modal" src="https://mikeumus.typeform.com/to/IYXQIr" > </iframe>
+       <%- @partial('typeform-home') %>
       </div>
       <div class="modal-footer">
         <!--
