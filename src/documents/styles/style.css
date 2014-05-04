@@ -1,9 +1,11 @@
 ::-webkit-scrollbar{width:17px;background:#fafafa}
 ::-webkit-scrollbar-thumb{background:#333;}
-::selection{background:#ff7878;color:#fff;text-shadow:none}body{background:#0b0607;}
+::selection{background:#ff7878;color:#fff;text-shadow:none}
 
 body {
+	background: #fafafa;
     margin: 0 auto;
+	max-width: 1020px;
     line-height: 1.7em;
 	font-family: 'Roboto', sans-serif;
 }
@@ -62,9 +64,13 @@ h6{
 .header {
     margin: 0 0;
 }
-
+	.header-menu{
+		background: #252525;
+	}
     .header .pure-menu {
+		position: relative;
         padding: 6px;
+		max-width: 1020px;
         border-bottom:0 !important;
         background: #252525;
     }
@@ -76,6 +82,9 @@ h6{
 			margin: -20px 0 0 0;
 			font-size: 15px;
         }
+		.header .pure-menu li a{
+			padding: 13px 20px 5px;
+		}
         .pure-menu li a:hover,
         .pure-menu li a:focus {
             background: none;
@@ -99,11 +108,14 @@ body .primary-button {
 
 .splash {
     height: 444px;
-    background: #eee url('https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/feature-bg.png') center no-repeat;
+    background: #FAA059 url('https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/feature-bg.png') center no-repeat;
     margin: 2em auto 0;
     padding: 7em 0.5em 9em;
 	color: #fff;
     border-bottom: 5px solid #FB801F;
+	position: absolute;
+	width: 100%;
+	right: 0;
 }
     .splash .splash-text {
         text-align: center;

@@ -41,6 +41,7 @@
 <!-- Markup -->
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
+		<span class="header-menu">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal logo-tab">
 			<img class="logo-icon-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/logo-icon_header-tab.png" alt="writers block icon logo"/>
 			<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
@@ -54,6 +55,7 @@
 				</li>
 			</ul>
 		</div>
+		</span>
 	</div>
 
 	<%- @content %>
