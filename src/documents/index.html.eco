@@ -26,7 +26,7 @@ title: 'Home'
         </div>
     </div>
 
-    <div class="content center pure-u-1"> <!-- content class start -->
+    <div class="content center pure-u-1 home-content"> <!-- content class start -->
         <div class="pure-g-r content-ribbon page-rank">
             <div class="pure-u-1">
                 <div class="l-box">
@@ -129,7 +129,7 @@ title: 'Home'
 								<span class="cube-copy"> Landing <br/> Pages </span>
 							</div>
 							<div class="pure-u-1-3 cube-third">
-								<%- @getIconmonstrTipsyBlock('newspaper8','news8Icon cube-svg','news8-icon','') %>
+								<!-- iconmonstr newspaper8 -->
 								<span class="cube-copy"> Sites </span>
 							</div>
 							<div class="pure-u-1-3 cube-third">
@@ -156,3 +156,5 @@ title: 'Home'
         </div>
     </div>
 </div> <!-- content class ends -->
+
+<%- @partial('home-contact-modal') %>
