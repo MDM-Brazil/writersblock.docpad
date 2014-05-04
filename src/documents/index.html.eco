@@ -27,7 +27,7 @@ title: 'Home'
     </div>
 
     <div class="content center pure-u-1 home-content"> <!-- content class start -->
-        <div class="pure-g-r content-ribbon page-rank">
+        <div id="testimonialSection" class="pure-g-r content-ribbon page-rank">
             <div class="pure-u-1">
                 <div class="l-box">
                     <h4 class="content-subhead">1,000+ pages of content ranking for 10,000+ keywords</h4>
@@ -93,7 +93,7 @@ title: 'Home'
             </div>  
         </div>
 
-        <div class="pure-g-r summary">
+        <div id="summarySection" class="pure-g-r summary">
             <div class="pure-u-1 summary-headers">
                 <div class="l-box">
                         <h4 class="content-subhead">WritersBlock in Summary</h4>

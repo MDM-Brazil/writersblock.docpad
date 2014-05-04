@@ -46,11 +46,9 @@
 			<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
 
 			<ul>
-				<% for document in @getCollection('pages').toJSON(): %>
-					<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
-					</li>
-				<% end %>
+				<li><a href="#summarySection">ABOUT US</a></li>
+				<li><a href="#summarySection">OUR SERVICES</a></li>
+				<li><a href="#testimonialSection">TESTIMONIALS</a></li>
 				<li>
 					<img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
 				</li>
