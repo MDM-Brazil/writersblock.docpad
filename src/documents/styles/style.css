@@ -175,14 +175,20 @@ body .primary-button {
     float: right;
 }
 
+.modal{
+	cursor: pointer;
+}
+.modal-body{
+	padding: 0;
+}
 .home-contact-modal{
 	position: fixed;
 	z-index: -1;
 	border: 0;
-	width: 103%;
-	height: 1044px;
+	width: 100%;
+	height: 525px;
 	box-shadow: none;
-	top: -434px;
+	margin: 32px 0 0 0;
 }
 	.modal-header .close{
 		margin-top: -2px;
@@ -191,7 +197,7 @@ body .primary-button {
 		border-radius: 50%;
 		opacity: 0.9;
 		border: 1px solid #111;
-	}	
+	}
 	.modal-header{
 		border: 0;
 		z-index: 2;
@@ -201,10 +207,12 @@ body .primary-button {
 		position: fixed;
 		top: 0;
 		width: 100%;
+		cursor: default;
 	}
 	/*.home-contact-modal */
 	.modal-content{
-		background: transparent;
+		background: #fff;
+		border-radius: 0; 
 	}
 	.modal-footer{
 		border: 0;
