@@ -5,4 +5,8 @@ $( document ).ready(function() {
 		$('#homeContactModal').modal('show');
 	});
 	
+	$('.pure-button').on('click', function(){
+		$('.phone-cube-tab').trigger('click');
+	});
+	
 });

@@ -1,6 +1,5 @@
 ::-webkit-scrollbar{width:17px;background:#fafafa}
 ::-webkit-scrollbar-thumb{background:#333;}
-::-webkit-scrollbar-thumb:window-inactive{background:rgba(216,210,206,0.3)}
 ::selection{background:#ff7878;color:#fff;text-shadow:none}body{background:#0b0607;}
 
 body {
@@ -39,6 +38,9 @@ a:hover{
 		position: absolute;
 		top:0;
 	}
+	.cube-svg polygon{
+		fill: orange;
+	}
 	.phone-cube-tab{
 		margin: 14px 18px -8px 0;
 		cursor: pointer;
@@ -74,13 +76,16 @@ h6{
 			margin: -20px 0 0 0;
 			font-size: 15px;
         }
-        .header .pure-menu li a:hover,
-        .header .pure-menu li a:focus {
+        .pure-menu li a:hover,
+        .pure-menu li a:focus {
             background: none;
             border: none;
-            color: orange;
 			font-weight: bold;
         }
+		.header .pure-menu li a:hover,
+        .header .pure-menu li a:focus{
+			color:  orange;
+		}
 
 body .primary-button {
     background: #02a6eb;
@@ -132,7 +137,7 @@ body .primary-button {
 		margin: 7em 0 -2em !important;
 	}
     .testimonials{
-        margin: 3em 3em 0 3em;
+        margin: 3em 3em 7em 3em;
     }
     .test-btn-row{
         margin: 0 0 77px 0;

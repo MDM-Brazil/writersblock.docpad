@@ -43,16 +43,16 @@ title: 'Home'
 					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>
                     <h3>Testimonial</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     </p>
                     <span class="orange">
                         <strong>Morum Johnson</strong>, Desk.com
-                    </span> 
+                    </span>
                 </div>
             </div>
             <div class="pure-u-1-3">
                 <div class="l-box">
-					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>					
+					<img class="testimonial-face" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/testimonial-face.png" alt="testimonial face"/>
                     <h3>Testimonial</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -75,6 +75,7 @@ title: 'Home'
                 </div>
             </div>
         </div>
+		<!-- button row
         <div class="pure-g-r center test-btn-row">
             <div class="pure-u-1-3">
                 <div class="test-box-left">
@@ -92,6 +93,7 @@ title: 'Home'
                 </div>
             </div>  
         </div>
+		-->
 
         <div id="summarySection" class="pure-g-r summary">
             <div class="pure-u-1 summary-headers">
@@ -130,6 +132,7 @@ title: 'Home'
 							</div>
 							<div class="pure-u-1-3 cube-third">
 								<!-- iconmonstr newspaper8 -->
+								<%- @partial('cube-svg') %>
 								<span class="cube-copy"> Sites </span>
 							</div>
 							<div class="pure-u-1-3 cube-third">
