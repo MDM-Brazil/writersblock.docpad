@@ -39,23 +39,25 @@
 <body>
 
 <!-- Markup -->
-<div class="content pure-g-r">
-	<div class="header pure-u-1">
-		<span class="header-menu">
-		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal logo-tab">
-			<img class="logo-icon-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/logo-icon_header-tab.png" alt="writers block icon logo"/>
-			<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
+<div class="content pure-g-r block">
+	<div class="header-bg">
+		<div class="pure-u-1 header block constraint center auto">
+			<span class="header-menu">
+				<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal logo-tab">
+					<img class="logo-icon-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/logo-icon_header-tab.png" alt="writers block icon logo"/>
+					<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
 
-			<ul>
-				<li><a href="#summarySection">ABOUT US</a></li>
-				<li><a href="#summarySection">OUR SERVICES</a></li>
-				<li><a href="#testimonialSection">TESTIMONIALS</a></li>
-				<li>
-					<img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
-				</li>
-			</ul>
+					<ul>
+						<li><a href="#summarySection">ABOUT US</a></li>
+						<li><a href="#summarySection">OUR SERVICES</a></li>
+						<li><a href="#testimonialSection">TESTIMONIALS</a></li>
+						<li>
+							<img class="phone-cube-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/phone-cube-tab.png" alt="phone cube tab"/>
+						</li>
+					</ul>
+				</div>
+			</span>
 		</div>
-		</span>
 	</div>
 
 	<%- @content %>
