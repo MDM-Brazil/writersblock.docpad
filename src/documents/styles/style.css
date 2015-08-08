@@ -46,6 +46,9 @@ a:hover{
 		top: 0;
 		left: 5px;
 	}
+	.logo-tab li{
+		display: inline-block;
+	}
 	.cube-svg polygon{
 		fill: orange;
 	}
