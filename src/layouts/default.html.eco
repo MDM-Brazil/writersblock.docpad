@@ -47,7 +47,7 @@
 					<img class="logo-icon-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTeXpYVWh1ek52NlE/logo-icon_header-tab.png" alt="writers block icon logo"/>
 					<a class="pure-menu-heading logo" href="/">Writers<strong>Block</strong></a>
 
-					<ul>
+					<ul class="header-nav">
 						<li><a href="#summarySection">ABOUT US</a></li>
 						<li><a href="#summarySection">OUR SERVICES</a></li>
 						<li><a href="#testimonialSection">TESTIMONIALS</a></li>

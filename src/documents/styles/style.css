@@ -46,7 +46,7 @@ a:hover{
 		top: 0;
 		left: 5px;
 	}
-	.logo-tab li{
+	.header-nav{
 		display: inline-block;
 	}
 	.cube-svg polygon{
