@@ -38,7 +38,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"https://yui.yahooapis.com/pure/0.3.0/pure-min.css"
+				"https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css"
 				"https://fonts.googleapis.com/css?family=Roboto:400,300,700,900"
 				"https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
 				"https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"
