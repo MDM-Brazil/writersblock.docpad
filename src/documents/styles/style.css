@@ -46,7 +46,7 @@ a:hover{
 		top: 0;
 		left: 5px;
 	}
-	.header-nav{
+	.header-nav li{
 		display: inline-block;
 	}
 	.cube-svg polygon{
@@ -151,6 +151,8 @@ body .primary-button {
 	.splash .splash-subhead {
 		font-weight: 300;
 		line-height: 1.4em;
+		font-size: 24px;
+    	margin: 37px auto auto;
 	}
 	.splash .primary-button {
 		font-size: 150%;
