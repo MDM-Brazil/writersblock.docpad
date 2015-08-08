@@ -38,18 +38,18 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"http://yui.yahooapis.com/pure/0.3.0/pure-min.css"
-				"http://fonts.googleapis.com/css?family=Roboto:400,300,700,900"
-				"//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
-				"//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"
-				"/styles/style.css"
+				"https://yui.yahooapis.com/pure/0.3.0/pure-min.css"
+				"https://fonts.googleapis.com/css?family=Roboto:400,300,700,900"
+				"https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+				"https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"
+				"styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1-rc2/jquery.min.js"
-				"//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1-rc2/jquery.min.js"
+				"https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
+				"scripts/script.js"
 				]
 
 
